@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- *********************************选项卡（文字字号横向列表）区域********************************* -->
+    <!-- 选项卡文本颜色 -->
+    <color name="tab_text_normal_color">#ff777777</color>
+    <color name="tab_text_selected_color">#1A78EC</color>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <Button
+        android:id="@+id/btn_change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="选中字号24"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"/>
+
+    <HorizontalScrollView
+        android:id="@+id/tab_hori_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:layout_margin="20dp">
+
+        <com.why.project.tabtopautotextsizelayout.tab.TabTopAutoTextSizeLayout
+            android:id="@+id/tab_textsizeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            />
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/text_size_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="这显示选中的字号"
+        android:textColor="@color/tab_text_selected_color"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"/>
+</LinearLayout>
